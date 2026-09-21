@@ -77,13 +77,13 @@ All of these can point to the same folder if you keep every input file together.
 Run the whole script in order, for example:
 
 ```r
-source("neuroblastoma_ets_analysis_efs.R")   # or neuroblastoma_ets_analysis_os.R
+source("neuroblastoma_efs.R")   # or neuroblastoma_os.R
 ```
 
 or from a terminal:
 
 ```bash
-Rscript neuroblastoma_ets_analysis_efs.R
+Rscript neuroblastoma_efs.R
 ```
 
 Packages are loaded once at the top, and Part C relies on them, so run the file from the top rather than executing Part C on its own. If you run both scripts, use different `OUT_DIR` / `pea3_output` folders (or move the results in between), otherwise the ELK1 files with identical names (e.g. `07_TimeROC`, `01_ELK1_distribution`) will be overwritten.
