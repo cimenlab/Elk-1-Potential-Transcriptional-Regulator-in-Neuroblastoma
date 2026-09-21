@@ -7,8 +7,8 @@ Two R scripts that analyse the expression of the ETS transcription factors **ELK
 
 | Script | Survival endpoint |
 |---|---|
-| `neuroblastoma_ets_analysis_efs.R` | Event-free survival (EFS) |
-| `neuroblastoma_ets_analysis_os.R` | Overall survival (OS) |
+| `neuroblastoma_efs.R` | Event-free survival (EFS) |
+| `neuroblastoma_os.R` | Overall survival (OS) |
 
 The scripts differ in the survival endpoint, which is used for the optimal cutpoint, the Kaplan-Meier plots and the time-dependent ROC, and appears in the output file names (`EFS` / `OS`). They also differ in one further respect: in the OS script the multi-page violin PDFs for the CD antigen / surface / neuroblastoma marker lists (Part B, files `25`-`28`) are disabled; uncomment the `save_violin_pdf(...)` lines to generate them. Both scripts run top to bottom and are organised in three parts.
 
