@@ -3,6 +3,9 @@ R pipeline for investigating ELK1 and PEA3 family transcription factors as regul
 
 Two R scripts that analyse the expression of the ETS transcription factors **ELK1** and the **PEA3 subfamily (ETV1, ETV4, ETV5)** in neuroblastoma, using public RNA-seq data from cell lines and patients. It also relates their expression to three focus markers (**CSF3R, CD44, PROM1**), to surface/CD-antigen marker lists, and to MYCN status.
 
+## DOI
+https://doi.org/10.5281/zenodo.22881595
+
 ## Scripts
 
 | Script | Survival endpoint |
